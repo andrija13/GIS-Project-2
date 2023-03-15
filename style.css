@@ -1,0 +1,61 @@
+#map {
+    height: calc(100vh - 48px);
+}
+.row{
+    margin: 0;
+}
+.legend-tag {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 15px;
+    display: grid;
+    place-items: center;
+}
+.legend-tag.education{
+        border: 3px solid rgba(104, 64, 19, 0.7);
+    background: rgba(104, 64, 19, 0.2);
+}
+.legend-tag.hospital {
+    border: 3px solid rgba(212, 3, 10, 0.7);
+    background: rgba(212, 3, 10, 0.2);
+}
+.legend-tag.sport {
+    border: 3px solid rgba(255, 241, 0, 0.7);
+    background: rgba(255, 241, 0, 0.2);
+}
+.legend-tag .marker{
+    width: 14px;
+}
+.legend-tag.river{
+    background: #FFF;
+    display: flex;
+    place-items: center;
+}
+.legend-tag.forest {
+    border: 3px solid black;
+    background: #66FF66;
+}
+.river .line {
+    width: 100%;
+    height: 6px;
+    background: blue;
+}
+.legend-tag.railway {
+    background: #FFF;
+    display: flex;
+    place-items: center;
+}
+.railway .line {
+    width: 100%;
+    height: 6px;
+    background: black;
+}
+.form-switch {
+    display: flex;
+    padding-left: 80px;
+    align-items: center;
+}
+.form-check-label{
+    padding-left: 10px;
+}
